@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="external.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <title>CodeConnect</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" style="text-decoration: none;"><div class="logo-container">
+        <div class="logo-hover">
+          <div class="logo">
+            <span class="pink">&lt;</span>CodeConnect/<span class="purple">&gt;</span>
+          </div>
+        </div>
+      </div></a>
+      <div class="nav-link-group">
+        <a href="index.html">Home</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#contactUs">Contact Us</a>
+      </div>
+      <!-- <div class="bx bx-menu" id="menu-list">   -->
+
+      </div>
+      <div class="bx bx-menu" id="menu-list"></div>
+    </nav>
+    <section class="header bg-images row">
+      <div class="col-md-6 col-lg-6 content-area">
+        <p class="heading-text">
+          Become the <span class="green">software engineer</span> that companies
+          <span class="red">love to hire!!</span>
+        </p>
+        <p class="heading-text1 fw-light mt-5 mb-5" >
+          At Code Connect, we believe that coding is not just a skill but a
+          superpower that empowers you to create, innovate, and shape the
+          future. Whether you're a complete beginner or a seasoned enthusiast,
+          we've got something incredible in store for you.
+        </p>
+       
+        <a href="#forms"><button class="button-1">Get Started</button></a>
+
+      </div>
+      <div class="col-md-6 col-lg-6 image-area overflow-auto">
+        <div class="terminal"> 
+          <div class="terminal-inside">
+            <div class="taskbar">
+              <div class="taskbar-btn-container">
+                <div class="taskbar-btn taskbar-btn-red"></div>
+                <div class="taskbar-btn taskbar-btn-yellow"></div>
+                <div class="taskbar-btn taskbar-btn-green"></div>
+              </div>
+            </div>
+            <div class="terminal-content" style="tab-size: 5cap;" id="devs-container">
+              <!-- <span class="green">Const</span> Devs = { <br>
+              &emsp;"<span class="purple" id="pltfrm">Platform</span>": "CodeConnect"; <br>
+              &emsp;"<span class="purple">TeamMembers</span>" :&ensp;[<br>
+              &emsp;&emsp;&emsp;{<br>&emsp;&emsp;&emsp;&emsp;&emsp;"<span class="red">Name</span>": "<span class="green">Unnikrishnan N.e.k</span>"<br>&emsp;&emsp;&emsp;&emsp;&emsp;"<span class="red">Domain</span>": "<span class="green">DevOps</span>"<br>&emsp;&emsp;&emsp;},&ensp;{<br>&emsp;&emsp;&emsp;&emsp;&emsp;"<span class="red">Name</span>": "<span class="green">Priti Gupta</span>"<br>&emsp;&emsp;&emsp;&emsp;&emsp;"<span class="red">Domain</span>": "<span class="green">Frontend-Development</span>"<br>&emsp;&emsp;&emsp;},&ensp;{<br>&emsp;&emsp;&emsp;&emsp;&emsp;"<span class="red">Name</span>": "<span class="green">Ajay Sathvik</span>"<br>&emsp;&emsp;&emsp;&emsp;&emsp;"<span class="red">Domain</span>": "<span class="green">FullStack-Development</span>"<br>&emsp;&emsp;&emsp;},&ensp;{<br>&emsp;&emsp;&emsp;&emsp;&emsp;"<span class="red">Name</span>": "<span class="green">Gautam Rajesh</span>"<br>&emsp;&emsp;&emsp;&emsp;&emsp;"<span class="red">Domain</span>": "<span class="green">Backend-Development</span>"<br>&emsp;&emsp;&emsp;},&ensp;{<br>&emsp;&emsp;&emsp;&emsp;&emsp;"<span class="red">Name</span>": "<span class="green">Vighnesh</span>"<br>&emsp;&emsp;&emsp;&emsp;&emsp;"<span class="red">Domain</span>": "<span class="green">Web-Security</span>"<br>&emsp;&emsp;&emsp;}<br>&emsp;&emsp;&emsp;];<br>} -->
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= course card =============== -->
+    
+    
+    <div  class="container mt-5 m-auto m-10 overflow-hidden " >
+
+      <!-- =================== Course options ================ -->
+    <div class="light-glass m-10" id="courses">
+      <section>
+        <div class="content m-5">
+          <p class="heading-text heading-font"><span class="red" style="font-size: 1.5em;">Courses</span></p>
+          <p style="color: white; font-size: 40px">
+            <a href="#front-end"><button data-text="Awesome" class="hover-button">
+              <span class="actual-text"
+                >&nbsp;Front&nbsp;end&nbsp;Development&nbsp;</span
+              >
+              <span class="hover-text" aria-hidden="true"
+                >&nbsp;Front&nbsp;end&nbsp;Development&nbsp;</span>
+            </button></a>
+            <br />
+            <a href="#back-end"><button data-text="Awesome" class="hover-button">
+                <span class="actual-text"
+                  >&nbsp;Back&nbsp;end&nbsp;Development&nbsp;</span
+                >
+                <span class="hover-text" aria-hidden="true"
+                  >&nbsp;Back&nbsp;end&nbsp;Development&nbsp;</span
+                >
+              </button></a
+            ><br />
+            <a href="#full-stack"><button data-text="Awesome" class="hover-button">
+              <span class="actual-text">&nbsp;Full&nbsp;Stack&nbsp;Development</span>
+              <span class="hover-text" aria-hidden="true"
+                >&nbsp;Full&nbsp;Stack&nbsp;</span
+              ></button></a>  
+            <br />
+            <a href="#dev-ops"><button data-text="Awesome" class="hover-button">
+              <span class="actual-text">&nbsp;DevOps&nbsp;</span>
+              <span class="hover-text" aria-hidden="true"
+                >&nbsp;DevOps&nbsp;</span>
+            </button></a>
+            <br />
+            <a href="#web-sec" target=""><button data-text="Awesome" class="hover-button">
+                <span class="actual-text">&nbsp;Web&nbsp;Security&nbsp;</span>
+                <span class="hover-text" aria-hidden="true"
+                  >&nbsp;Web&nbsp;Security&nbsp;</span
+                >
+              </button></a>   
+          </p>
+        </div>
+      </section>
+    </div>
+
+      <!-- ============ horizontal card ========== --> 
+    <div class="card mb-4 p-5 " id="front-end" style="background-color: rgba(131, 94, 191, 0.3); color:white;   backdrop-filter: blur(10px);">
+         <div class="row mx-1 my-2">
+             <div class="col-md-4 ">
+
+                 <img src="assets/frotend.jpg" alt="" class="img-fluid"  style="width:480px; height: 280px;">
+
+             </div>
+             <div class="col-md-8 ">
+
+                 <h2 class="card-title mt-1 fw-bold">Frontend-Development</h2>
+                 <p class="fw-medium lh-1.5 fs-5">Front-end development is focused on creating the user interface and user experience of a website or web application.
+                    Front-end developers use technologies like <b>HTML </b>(Hypertext Markup Language), <b class="text-"> CSS</b> (Cascading Style Sheets), and  <b>JavaScript</b>
+                    to build the visual and interactive elements that users see and interact with in their browsers. HTML provides the structure
+                    of the webpage, CSS handles the styling and layout, and JavaScript adds interactivity and dynamic behavior to the site.
+                 </p>
+                 <a href="https://www.udemy.com/course/get-started-with-html-css-the-frontend-developer-bootcamp/"><button class="btn btn-outline-light">Checkout the course</button></a>
+             </div>
+         </div>
+
+     </div>
+
+     <div class="card  mb-4 p-5 bg-body-secondary" id="back-end">
+         <div class="row mx-1 my-2">
+             <div class="col-md-8 order-md-1 order-2 ">
+
+                      <h2 class="card-title mt-3 fw-bold">Backend-Development</h2>
+                      <p class="fw-medium lh-1.5 fs-5">Backend development is a vital aspect of web application creation, responsible for the server-side 
+                         logic that powers the application's functionality.
+                          They manage databases, ensuring seamless data storage and retrieval, and create APIs to facilitate communication between the 
+                          frontend and backend. Security is a priority, and developers implement measures to safeguard against unauthorized access and
+                           potential vulnerabilities.
+                         
+                  </p>
+                 <a href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"><button class="btn btn-outline-dark ">Checkout the course</button></a>
+             </div>
+             <div class="col-md-4 order-md-2 order-1">
+                 <img src="assets/backend.png" alt="" class="img-fluid"  style="width:480px; height: 280px;">
+             </div>
+         </div>
+
+     </div>
+
+     <div class="card  mb-4 p-5" id="dev-ops" style="background-color: rgba(136, 98, 197, 0.3); color:white;   backdrop-filter: blur(10px);"  >
+         <div class="row mx-1 my-2">
+             <div class="col-md-4 ">
+
+                 <img src="assets/devops.jpg" alt="" class="img-fluid"  style="width:480px; height: 280px;">
+
+             </div>
+             <div class="col-md-8">
+
+                 <h2 class="card-title mt-1 fw-bold">DevOps</h2>
+                 <p class="fw-medium lh-1.5 fs-5">
+                     DevOps unifies software development and IT operations, emphasizing collaboration and automation 
+                     to streamline the development lifecycle. It involves continuous integration, delivery, and
+                      infrastructure as code practices. DevOps enables faster development, improved software quality, and 
+                      quicker deployments, fostering efficiency and customer satisfaction. By automating processes and 
+                      encouraging cross-functional teamwork, 
+                     DevOps enhances the overall development and delivery of applications and services.
+                 </p>
+                 <a href="https://www.udemy.com/course/the-devops-essentials/"><button class="btn btn-outline-light">Checkout the course</button></a>
+
+             </div>
+         </div>
+
+     </div>
+
+
+      <div class="card  mb-4 p-5 bg-body-secondary" id="full-stack">
+         <div class="row mx-1 my-2">
+             <div class="col-md-8 order-md-1 order-2">
+
+                 <h2 class="card-title mt-1 fw-bold">FullStack-Development</h2>
+                 <p class="fw-medium lh-1.5 fs-5">Full-stack development refers to the practice of building
+                      web applications that encompass both frontend and backend components. Full-stack developers are proficient 
+                      in multiple technologies, such as HTML, CSS, JavaScript for frontend, and server-side languages like Python, 
+                      Ruby, or Node.js. They work on all layers of the application, 
+                     from user interfaces to databases, enabling them to create complete and functional web solutions.
+                 </p>
+                 <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"><button class="btn btn-outline-dark">Checkout the course</button></a>
+
+             </div>
+             <div class="col-md-4 order-md-2 order-1 ">
+
+                 <img src="assets/Full_Stack.png" alt="" class="img-fluid"  style="width:450px; height: 280px;">
+             </div>
+         </div>
+     </div>
+
+     <div class="card  mb-4 p-5" id="web-sec" style="background-color: rgba(131, 94, 191, 0.3); color:white;   backdrop-filter: blur(10px); " >
+         <div class="row mx-1 my-2">
+             <div class="col-md-4 ">
+
+                 <img src="assets/art-of-hacking-1024x683.webp" alt="" class="img-fluid"  style="width:480px; height: 280px;">
+
+             </div>
+             <div class="col-md-8">
+                 <h2 class="card-title mt-1 fw-bold">Web-Security</h2>
+                 <p class="fw-medium lh-1.5 fs-5">
+                     Web security involves implementing measures to protect websites and web applications from potential threats and vulnerabilities.
+                      It includes using encryption (SSL/TLS) for secure data transmission, preventing SQL injection and cross-site scripting (XSS)
+                       attacks, setting up proper authentication and authorization mechanisms, regular security audits, and staying up-to-date with 
+                       security patches. Ensuring web security is crucial to
+                      safeguard user data and maintain the integrity of online systems.
+                 </p>
+                 <a href="https://www.udemy.com/course/learn-bug-bounty-hunting-web-security-testing-from-scratch/"><button class="btn btn-outline-light">Checkout the course</button></a>
+
+             </div>
+         </div>
+
+     </div>
+   </div>
+
+    <!-- Founder Information -->
+    <div class="founder">
+      <section class="developers">
+        <p class="heading-text">
+          <span class="red">Who</span> Are <span class="green">We</span>
+        </p>
+
+        <p class="heading-text ">Coding Pioneers Charting a Connected Future - Meet Our Founders</p>
+        <div class="row justify-content-around mt-2">
+
+          <!-- Unnikrishnan Namboothiri -->
+          <div class="card p-3" style="width: 310px; height:600px; cursor: pointer; transition: all 0.2s; position: relative;   background-color: transparent;
+                                   border: 2px solid white; border-radius:15px;">
+            <!-- <div class="circle"></div>
+            <div class="circle"></div>  -->
+            <div class="card-inner">
+              <img
+                src="./assets/Unnikrishnan.jpeg"
+                alt="Picture of Unnikrishnan"
+                srcset=""
+              />
+              <div class="card-body fw-bold">
+                <p>Unnikrishnan </p>
+                <p class="fs-4 fw-light text-secondary">Full Stack Developer</p>
+                <div class="soc">
+                  <!-- social media handles -->
+                  <ul class="socialIcons">
+                    <li class="github"><a href="https://github.com/unnikrishnanNam"><i class="fa fa-fw fa-github"></i></a></li>
+                         <li class="instagram"><a href="https://www.instagram.com/unnikrishnan.n.ek/"><i class="fa fa-fw fa-instagram"></i></a></li>
+                         <li class="linkedin"><a href="https://www.linkedin.com/in/unnikrishnan-namboothiri-452b05203/"><i class="fa fa-fw fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Gautam Rajesh -->
+          <div class="card p-3 " style="width: 310px; height:600px; cursor: pointer; transition: all 0.2s; position: relative;   background-color: transparent;
+          border: 2px solid white; border-radius:15px;">
+          <!-- <div class="circle blob-blue"></div>
+            <div class="circle blob-blue"></div> -->
+            <div class="card-inner">
+              <img
+                src="./assets/Gautam.jpeg"
+                alt="Picture of Gautam Rajesh"
+                srcset=""
+              />
+              <div class="card-body fw-bold">
+                <p>Gautam Rajesh</p>
+                <p class="fs-4 fw-light text-secondary">Backend Developer</p>
+                <div class="soc">
+                  <!-- social media handles -->
+                  <ul class="socialIcons">
+                    <li class="github"><a href="https://github.com/gautamrajesh007"><i class="fa fa-fw fa-github"></i></a></li>
+                         <li class="instagram"><a href="https://www.instagram.com/gautamrajesh_007/"><i class="fa fa-fw fa-instagram"></i></a></li>
+                         <li class="linkedin"><a href="https://www.linkedin.com/in/gautam-rajesh-a98491255/"><i class="fa fa-fw fa-linkedin"></i></a></li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Priti Gupta -->
+          <div class="card p-3" style="width: 310px; height:600px; cursor: pointer; transition: all 0.2s; position: relative;   background-color: transparent;
+          border: 2px solid white; border-radius:15px;">
+          <!-- <div class="circle"></div>
+            <div class="circle"></div> -->
+            <div class="card-inner">
+              <img
+                src="assets/priti.jpg"
+                alt="Picture of Priti Gupta"
+                srcset=""
+              />
+              <div class="card-body fw-bold">
+                <p>Priti Gupta</p>
+                <p class="fs-4 fw-light text-secondary">Frontend Developer</p>
+                <div class="soc">
+                  <!-- social media handles -->
+                  <ul class="socialIcons">
+                    <li class="github"><a href="https://github.com/priti200"><i class="fa fa-fw fa-github"></i></a></li>
+                         <li class="instagram"><a href="https://www.instagram.com/eye_m_priti"><i class="fa fa-fw fa-instagram"></i></a></li>
+                         <li class="linkedin"><a href="https://www.linkedin.com/in/priti-gupta-554637255"><i class="fa fa-fw fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Vighnesh -->
+          <div class="card p-3" style="width: 310px; height:600px; cursor: pointer; transition: all 0.2s; position: relative;   background-color: transparent;
+          border: 2px solid white; border-radius:15px;">
+          <!-- <div class="circle blob-white"></div>
+            <div class="circle blob-white"></div> -->
+            <div class="card-inner">
+              <img
+                src="./assets/vighnesh(1).jpeg"
+                alt="Picture of Vighnesh"
+                srcset=""
+              />
+              <div class="card-body fw-bold">
+                <p>Vighnesh</p>
+                <p class="fs-4 fw-light text-secondary">Web Security</p>
+                <div class="soc">
+                  <!-- social media handles -->
+                  <ul class="socialIcons">
+                    <li class="github"><a href="https://github.com/VighneshHM"><i class="fa fa-fw fa-github"></i></a></li>
+                         <li class="instagram"><a href="https://www.instagram.com/lazyblueblood/"><i class="fa fa-fw fa-instagram"></i></a></li>
+                         <li class="linkedin"><a href="https://www.linkedin.com/in/gautam-rajesh-a98491255/"><i class="fa fa-fw fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+                 <!-- Ajay Sathvik  -->
+                 <div class="card p-3 m-2" style="width: 310px; height:600px; cursor: pointer; transition: all 0.2s; position: relative;   background-color: transparent;
+                 border: 2px solid white; border-radius:15px;">
+                 <!-- <div class="circle"></div> -->
+                  <!-- <div class="circle flex-end"></div> -->
+                  
+                  <div class="card-inner">
+                    <img
+                      src="./assets/ajay(1).jpeg"
+                      alt="Picture of Ajay Sathvik"
+                      srcset=""
+                    />
+                    <div class="card-body fw-bold">
+                      <p>Ajay Sathvik</p>
+                      <p class="fs-4 fw-light text-secondary">Blockchain Developer</p>
+
+                      <div class="soc">
+                        <!-- social media handles -->
+                        <ul class="socialIcons">
+                         <li class="github"><a href="https://github.com/ajaysathvik"><i class="fa fa-fw fa-github"></i></a></li>
+                         <li class="instagram"><a href="https://www.instagram.com/ajay_s.u/"><i class="fa fa-fw fa-instagram"></i></a></li>
+                         <li class="linkedin"><a href="https://www.linkedin.com/in/ajay-sathvik-200742172"><i class="fa fa-fw fa-linkedin"></i></a></li>
+      
+                       </ul>
+                     </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+</div>
+<br>
+         <!-- Form for interested registration -->
+  <div class="form_background bg-images" id="forms">
+    <div class="form-body d-flex justify-content-center">
+      <div class="row">
+          <div class="form-holder">
+            <div class="form-content">
+              <div class="form-items">
+                <h3 class="primary">Register Today</h3>
+                <p>Fill in the data below.</p>
+                <!-- https://script.google.com/macros/s/AKfycbxb1_UyqDMOMcrd7oUboIAuxvm4JjJltPKAQUqM0FU31vTag2y4nI6QjMfwIicnPtJI/exec -->
+                <form class="requires-validation" action="https://script.google.com/macros/s/AKfycbxb1_UyqDMOMcrd7oUboIAuxvm4JjJltPKAQUqM0FU31vTag2y4nI6QjMfwIicnPtJI/exec" method="post" enctype="multipart/form-data" name="regform" id="regForm">
+                  <div class="col-md-12">
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Full Name" required/>
+                    <div class="valid-feedback">Username field is valid!</div>
+                    <div class="invalid-feedback">
+                      Username field cannot be blank!
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <input class="form-control" id="email" type="email" name="email" placeholder="E-mail Address" required/>
+                    <div class="valid-feedback">Email field is valid!</div>
+                    <div class="invalid-feedback">
+                      Email field cannot be blank!
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <select class="form-select mt-3" name="interest" onchange="showDivision(this.value)" required>
+                      <option value="">Interest</option>
+                      <option value="Front End">Frontend Development</option>
+                      <option value="Back End">Backend Development</option>
+                      <option value="Full Stack">FullStack Development</option>
+                      <option value="Dev Ops">Dev Ops</option>
+                      <option value="Web Security">Web Security</option>
+                    </select>
+                    <div class="valid-feedback">You selected a position!</div>
+                    <div class="invalid-feedback">
+                      Please select a position!
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <input class="form-control" id="password" type="password" name="password" placeholder="Password" minlength='8' title="one special character uppercase letter one lowercase letter and one digit, min 8 characters long" required/>
+                    <div class="valid-feedback">Password field is valid!</div>
+                    <div class="invalid-feedback">
+                      Password field cannot be blank!
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required />
+                    <label class="form-check-label">I confirm that all data are correct</label>
+                    <div class="invalid-feedback">
+                      Please confirm that the entered data are all correct!
+                    </div>
+                  </div>
+                  <div class="form-button mt-4 d-flex justify-content-around">
+                    <input type="submit" value="Submit" id="submit" class="button btn btn-primary">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <!-- ==================== footer design using bootstrap ============== -->
+
+   <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="my-5">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-2"
+             style="background-color: #a57afb; height: 70px;"
+             >
+      <!-- Left -->
+      <div class="me-5 fs-4 m-1">
+        <span style="font-size: 30px;">Get connected with us</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div class="soc m-1">
+        <ul class="socialIcons">
+          <li class="github"><a href=""><i class="fa fa-fw fa-github"></i></a></li>
+          <li class="instagram"><a href=""><i class="fa fa-fw fa-instagram"></i></a></li>
+          <li class="linkedin"><a href=""><i class="fa fa-fw fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <!-- <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          
+          <div class="col-md-3 fs-5 col-lg-4 col-xl-3 mx-auto mb-4">
+            
+          </div>
+          <div>
+            
+          </div>
+          
+        </section> -->
+        <!-- Section: Social media -->
+        <!-- Section: Links  -->
+        <section class="mt-5" style="height: 250px;">
+          <div class="container text-center text-md-start">
+            <!-- Grid row -->
+            <div class="row">
+              <!-- Grid column -->
+              <div class="col-md-3 fs-5 col-lg-4 col-xl-3 mx-auto">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold red">Code Connect</h6>
+                <hr
+                  class="mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  Unlock your coding potential with Code Connect's immersive and
+                  interactive learning environment.
+                </p>
+              </div>
+              <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 fs-5 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold red">Courses</h6>
+                <hr
+                  class="mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p><a href="#front-end" class="text-white">Frontend </a></p>
+                <p><a href="#back-end" class="text-white">Backend </a></p>
+                <p><a href="#full-stack" class="text-white">FullStack</a></p>
+                <p><a href="#web-sec" class="text-white">Web Security</a></p>
+              </div>
+              <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 fs-5 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold red">Useful links</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p><a href="#!" class="text-white">Your Account</a></p>
+                <p><a href="#!" class="text-white">Become an Affiliate</a></p>
+                <p><a href="#!" class="text-white">Shipping Rates</a></p>
+                <p><a href="#!" class="text-white">Help</a></p>
+              </div>
+              <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-md-4 fs-5 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold red" id="contactUs">Contact</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>Kerala, Amritapuri, India</p>
+                <p><a href="mailto:codeconnect@gmail.com" style="color: #fff;">codeconnect@gmail.com</a></p>
+                <p>+91-329-456-7890</p>
+                <p>+ 076 520 131</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div
+          class="text-center p-3 fs-4"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-white" href="index.html">codeconnect.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+    <!-- End of .container -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
